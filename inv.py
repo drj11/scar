@@ -117,8 +117,7 @@ def tablify(html):
                 cell = list(el.childNodes)
             row.append(cell)
         table.append(row)
-    print(table)
-    ConvertTableToGHCNMInv(p.table)
+    ConvertTableToGHCNMInv(table)
 
 def main(argv=None):
     import sys
