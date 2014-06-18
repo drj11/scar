@@ -30,7 +30,6 @@ class HTMLTableParser(html.parser.HTMLParser):
                 new = self.doc.createElement(tag)
                 self.stack[-1].appendChild(new)
                 self.stack.append(new)
-                print(list(map(lambda x:x.tagName, self.stack)))
 
     def handle_endtag(self, tag):
         if not self.stack:
@@ -41,7 +40,6 @@ class HTMLTableParser(html.parser.HTMLParser):
                 warnings.warn("ignoring end tag {!r}".format(tag))
                 return
             self.stack.pop()
-            print(list(map(lambda x:x.tagName, self.stack)))
 
     def handle_data(self, data):
         if self.stack and self.stack[-1].tagName in ("a", "td", "th"):
@@ -108,8 +106,6 @@ def ConvertTableToGHCNMInv(table):
 def tablify(html):
     p = HTMLTableParser()
     p.feed(html)
-    print(p.stack[0].toprettyxml())
-    print(p.stack)
     table = []
     for row_node in p.stack[0].firstChild.childNodes:
         row = []
