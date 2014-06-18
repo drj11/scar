@@ -27,6 +27,8 @@ class HTMLTableParser(html.parser.HTMLParser):
             if tag == "table" or "table" in [
               el.tagName for el in self.stack]:
                 new = self.doc.createElement(tag)
+                for a, v in attrs:
+                    new.setAttribute(a, v)
                 self.stack[-1].appendChild(new)
                 self.stack.append(new)
 
