@@ -2,43 +2,56 @@
 
 import html.parser
 import urllib.request
+import warnings
+import xml.dom.minidom
 
 class HTMLTableParser(html.parser.HTMLParser):
     def __init__(self):
         super().__init__()
         self.table = []
-        self.row = False
-        self.cell = False
+        dom = xml.dom.minidom.getDOMImplementation()
+        self.doc = dom.createDocument(None, None, None)
+        self.stack = [self.doc.createElement('table')]
 
     def handle_starttag(self, tag, attrs):
-        if tag == "tr":
-            self.table.append([])
-            self.row = True
-        if tag in ("td", "th"):
-            self.table[-1].append('')
-            self.cell = True
-        # :todo: handle A elements for the HREF.
+        # In the broken HTML we get, there are some missing
+        # closing tags. So here, we close previous tags when we
+        # see a <TR>.
+        if tag == "tr" and "tr" in [el.tagName for el in self.stack]:
+            while True:
+                tag_name = self.stack[-1].tagName
+                self.handle_endtag(tag_name)
+                if tag_name == "tr":
+                    break
+
+        if tag in ("a", "td", "th", "tr"):
+            self.stack.append(self.doc.createElement(tag))
+            print(list(map(lambda x:x.tagName, self.stack)))
 
     def handle_endtag(self, tag):
-        if tag == "tr":
-            self.row = False
-        if tag in ("td", "th"):
-            self.cell = False
+        if tag in ("a", "td", "th", "tr"):
+            tos = self.stack[-1]
+            if tos.tagName != tag:
+                warnings.warn("ignoring end tag {!r}".format(tag))
+                return
+            child = self.stack.pop()
+            self.stack[-1].appendChild(child)
+            print(list(map(lambda x:x.tagName, self.stack)))
 
     def handle_data(self, data):
-        if not self.cell:
-            return
-        if data:
-            self.table[-1][-1] += data
+        if self.stack[-1].tagName in ("a", "td", "th"):
+            self.stack[-1].appendChild(self.doc.createTextNode(data))
+        else:
+            # :todo: check data is whitespace?
+            pass
 
 URL = "http://www.antarctica.ac.uk/met/READER/surface/stationpt.html"
 
-req = urllib.request.Request(url=URL)
-f = urllib.request.urlopen(req)
-xhtml = f.read().decode('ascii')
-
-p = HTMLTableParser()
-p.feed(xhtml)
+def fetch():
+    req = urllib.request.Request(url=URL)
+    f = urllib.request.urlopen(req)
+    html = f.read().decode('ascii')
+    return html
 
 def ConvertSingleDict(d):
     """
@@ -87,4 +100,24 @@ def ConvertTableToGHCNMInv(table):
         d = dict(zip(header, row))
         ConvertSingleDict(d)
 
-ConvertTableToGHCNMInv(p.table)
+def tablify(html):
+    p = HTMLTableParser()
+    p.feed(html)
+    print(p.stack[0].toprettyxml())
+    ConvertTableToGHCNMInv(p.table)
+
+def main(argv=None):
+    import sys
+
+    if argv is None:
+        argv = sys.argv
+    arg = argv[1:]
+    if len(arg) == 0:
+        html_inv = fetch()
+    else:
+        with open(arg[0]) as f:
+            html_inv = f.read()
+    tablify(html_inv)
+
+if __name__ == '__main__':
+    main()
