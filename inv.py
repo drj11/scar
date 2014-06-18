@@ -11,7 +11,7 @@ class HTMLTableParser(html.parser.HTMLParser):
         self.table = []
         dom = xml.dom.minidom.getDOMImplementation()
         self.doc = dom.createDocument(None, None, None)
-        self.stack = []
+        self.stack = [self.doc.createElement("root")]
 
     def handle_starttag(self, tag, attrs):
         # In the broken HTML we get, there are some missing
@@ -25,20 +25,22 @@ class HTMLTableParser(html.parser.HTMLParser):
                     break
 
         if tag in ("a", "table", "td", "th", "tr"):
-            if tag == "table" or len(self.stack) > 0:
-                self.stack.append(self.doc.createElement(tag))
+            if tag == "table" or "table" in [
+              el.tagName for el in self.stack]:
+                new = self.doc.createElement(tag)
+                self.stack[-1].appendChild(new)
+                self.stack.append(new)
                 print(list(map(lambda x:x.tagName, self.stack)))
 
     def handle_endtag(self, tag):
         if not self.stack:
             return
-        if tag in ("a", "td", "th", "tr"):
+        if tag in ("a", "table", "td", "th", "tr"):
             tos = self.stack[-1]
             if tos.tagName != tag:
                 warnings.warn("ignoring end tag {!r}".format(tag))
                 return
-            child = self.stack.pop()
-            self.stack[-1].appendChild(child)
+            self.stack.pop()
             print(list(map(lambda x:x.tagName, self.stack)))
 
     def handle_data(self, data):
@@ -107,6 +109,14 @@ def tablify(html):
     p = HTMLTableParser()
     p.feed(html)
     print(p.stack[0].toprettyxml())
+    print(p.stack)
+    table = []
+    for row_node in p.stack[0].firstChild.childNodes:
+        row = []
+        for el in row_node.childNodes:
+            row.append(list(el.childNodes))
+        table.append(row)
+    print(table)
     ConvertTableToGHCNMInv(p.table)
 
 def main(argv=None):
