@@ -8,7 +8,6 @@ import xml.dom.minidom
 class HTMLTableParser(html.parser.HTMLParser):
     def __init__(self):
         super().__init__()
-        self.table = []
         dom = xml.dom.minidom.getDOMImplementation()
         self.doc = dom.createDocument(None, None, None)
         self.stack = [self.doc.createElement("root")]
