@@ -122,6 +122,26 @@ def tablify(html):
         table.append(row)
     return table
 
+def make_urls(table, o):
+    for i, row in enumerate(table):
+        if i == 0:
+            # Typically ID, Name, Latitude, Longitude, Height
+            header = row
+            tavg_idx = row.index("Temperature")
+            id_idx = row.index("ID")
+            continue
+        # Get the cell in the Temperature column
+        cell = row[tavg_idx]
+        if not isinstance(cell, str):
+            # extract the element that contains the text "All"
+            all = [node for node in cell if
+              node.nodeType != 3 and
+              node.tagName == "a" and node.firstChild.data.strip() == "All"]
+            if len(all) == 1:
+                href = all[0].getAttribute("href")
+                o.write("{} {}\n".format(row[id_idx], href))
+
+
 def main(argv=None):
     import sys
 
@@ -134,7 +154,10 @@ def main(argv=None):
         with open(arg[0]) as f:
             html_inv = f.read()
     table = tablify(html_inv)
-    ConvertTableToGHCNMInv(table, sys.stdout)
+    with open("scar.inv", 'w') as o:
+        ConvertTableToGHCNMInv(table, o)
+    with open("scar.url", 'w') as o:
+        make_urls(table, o)
 
 if __name__ == '__main__':
     main()
