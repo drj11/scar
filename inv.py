@@ -110,6 +110,7 @@ def tablify(html):
     for row_node in p.stack[0].firstChild.childNodes:
         row = []
         for el in row_node.childNodes:
+            el.normalize()
             row.append(list(el.childNodes))
         table.append(row)
     print(table)
