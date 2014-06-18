@@ -111,7 +111,11 @@ def tablify(html):
         row = []
         for el in row_node.childNodes:
             el.normalize()
-            row.append(list(el.childNodes))
+            if len(el.childNodes) == 1 and el.firstChild.nodeType == 3:
+                cell = el.firstChild.data
+            else:
+                cell = list(el.childNodes)
+            row.append(cell)
         table.append(row)
     print(table)
     ConvertTableToGHCNMInv(p.table)
