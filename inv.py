@@ -57,8 +57,11 @@ def fetch():
 
 def ConvertSingleDict(d):
     """
-    Refer to ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/v3/README
-    for format of GHCN-M v3 inventory file (aka metadata).
+    Converts a dict to a single line formatted the same way as
+    the GHCN-M v3 inventory file (refer to
+    ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/v3/README).
+    The line, which is newline terminated, is returned as a
+    string.
     """
 
     import re
@@ -90,17 +93,16 @@ def ConvertSingleDict(d):
       id, latitude, longitude, stelev, d['Name'])
 
     assert len(formatted) == 68
-    print("{:107s}".format(formatted))
-    
+    return "{:107s}\n".format(formatted)
 
-def ConvertTableToGHCNMInv(table):
+def ConvertTableToGHCNMInv(table, out):
     for i, row in enumerate(table):
         if i == 0:
             # Typically ID, Name, Latitude, Longitude, Height
             header = row[:5]
             continue
         d = dict(zip(header, row))
-        ConvertSingleDict(d)
+        out.write(ConvertSingleDict(d))
 
 def tablify(html):
     p = HTMLTableParser()
@@ -116,7 +118,7 @@ def tablify(html):
                 cell = list(el.childNodes)
             row.append(cell)
         table.append(row)
-    ConvertTableToGHCNMInv(table)
+    return table
 
 def main(argv=None):
     import sys
@@ -129,7 +131,8 @@ def main(argv=None):
     else:
         with open(arg[0]) as f:
             html_inv = f.read()
-    tablify(html_inv)
+    table = tablify(html_inv)
+    ConvertTableToGHCNMInv(table, sys.stdout)
 
 if __name__ == '__main__':
     main()
