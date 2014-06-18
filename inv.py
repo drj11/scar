@@ -11,7 +11,7 @@ class HTMLTableParser(html.parser.HTMLParser):
         self.table = []
         dom = xml.dom.minidom.getDOMImplementation()
         self.doc = dom.createDocument(None, None, None)
-        self.stack = [self.doc.createElement('table')]
+        self.stack = []
 
     def handle_starttag(self, tag, attrs):
         # In the broken HTML we get, there are some missing
@@ -24,11 +24,14 @@ class HTMLTableParser(html.parser.HTMLParser):
                 if tag_name == "tr":
                     break
 
-        if tag in ("a", "td", "th", "tr"):
-            self.stack.append(self.doc.createElement(tag))
-            print(list(map(lambda x:x.tagName, self.stack)))
+        if tag in ("a", "table", "td", "th", "tr"):
+            if tag == "table" or len(self.stack) > 0:
+                self.stack.append(self.doc.createElement(tag))
+                print(list(map(lambda x:x.tagName, self.stack)))
 
     def handle_endtag(self, tag):
+        if not self.stack:
+            return
         if tag in ("a", "td", "th", "tr"):
             tos = self.stack[-1]
             if tos.tagName != tag:
@@ -39,7 +42,7 @@ class HTMLTableParser(html.parser.HTMLParser):
             print(list(map(lambda x:x.tagName, self.stack)))
 
     def handle_data(self, data):
-        if self.stack[-1].tagName in ("a", "td", "th"):
+        if self.stack and self.stack[-1].tagName in ("a", "td", "th"):
             self.stack[-1].appendChild(self.doc.createTextNode(data))
         else:
             # :todo: check data is whitespace?
