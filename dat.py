@@ -81,13 +81,23 @@ def from_urls():
 def from_file(f):
     import itertools
 
+    # Create map from name to WMO id.
     with open("scar.url") as rows:
-        wmo_map = [row.split() for row in rows]
+        wmo_map = dict()
+        for row in rows:
+            wmo, url = row.split()
+            name = url[:url.index('.')]
+            wmo_map[name] = wmo
 
-    def find_wmo(name):
-        for wmo, url in wmo_map:
-            if name.startswith(url[:url.index(".")]):
-                return wmo
+    def find_wmo(header):
+        name = header.split()[0]
+        if name in wmo_map:
+            return wmo_map[name]
+        result = [wmo for wmo_name, wmo in wmo_map.items()
+            if name.startswith(wmo_name)]
+        assert len(result) == 1, "{} {!r} {!r}".format(name, result,
+          wmo_map)
+        return result[0]
 
     with open("scar.dat", "w") as o:
         for v,g in itertools.groupby(f, lambda x:x[0].isdigit()):
