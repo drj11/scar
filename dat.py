@@ -67,11 +67,47 @@ def urls():
             url = BASE_URL + url
             yield (wmo, url)
 
-def main(argv=None):
+def id11_from_wmo(wmo):
+    return "799{}000".format(wmo)
+
+def from_urls():
     with open("scar.dat", "w") as o:
         for wmo, url in urls():
-            id11 = "799{}000".format(wmo)
+            id11 = id11_from_wmo(wmo)
             ghcnm_write(id11, fetch(url), o)
+
+def from_file(f):
+    import itertools
+
+    with open("scar.url") as rows:
+        wmo_map = [row.split() for row in rows]
+
+    def find_wmo(name):
+        for wmo, url in wmo_map:
+            print(name, url[:url.index(".")])
+            if name.startswith(url[:url.index(".")]):
+                return wmo
+
+    with open("scar.dat", "w") as o:
+        for v,g in itertools.groupby(f, lambda x:x[0].isdigit()):
+            if not v:
+                # Single line consisting of station name.
+                name = list(g)[0].strip()
+                wmo = find_wmo(name)
+            else:
+                # Many data lines, one per year.
+                id11 = id11_from_wmo(wmo)
+                ghcnm_write(id11, grok(g), o)
+
+def main(argv=None):
+    import sys
+    if argv is None:
+        argv = sys.argv
+    arg = argv[1:]
+    if not arg:
+        return from_urls()
+    with open(arg[0]) as inp:
+        return from_file(inp)
 
 if __name__ == '__main__':
     main()
