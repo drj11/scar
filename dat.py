@@ -85,7 +85,6 @@ def from_file(f):
 
     def find_wmo(name):
         for wmo, url in wmo_map:
-            print(name, url[:url.index(".")])
             if name.startswith(url[:url.index(".")]):
                 return wmo
 
