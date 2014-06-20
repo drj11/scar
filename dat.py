@@ -10,6 +10,7 @@ def fetch(url):
     a series of (year, data) pairs, where data is a 12-element
     list.
     """
+
     req = urllib.request.Request(url=url)
     f = urllib.request.urlopen(req)
     return grok(f)
