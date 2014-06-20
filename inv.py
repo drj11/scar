@@ -139,6 +139,8 @@ def make_urls(table, o):
               node.tagName == "a" and node.firstChild.data.strip() == "All"]
             if len(all) == 1:
                 href = all[0].getAttribute("href")
+                if href.endswith(".html"):
+                    href = href[:-5] + ".txt"
                 o.write("{} {}\n".format(row[id_idx], href))
 
 
