@@ -17,9 +17,10 @@ def fetch(url):
 
 def grok(inp, MISSING=MISSING):
     for i, line in enumerate(inp):
-        line = line
-        if i == 0:
-            header = line
+        if type(line) == bytes:
+            line = line.decode('ascii')
+        if not line[0].isdigit():
+            # Ignore header line (station name and element type)
             continue
         year = line[:4]
         data = []
