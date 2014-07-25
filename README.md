@@ -1,7 +1,15 @@
 SCAR READER Scraper
 ===================
 
-Get the SCAR READER data in GHCN-M v3 format.
+Get the [SCAR READER](http://www.antarctica.ac.uk/met/READER/) data in
+[GHCN-M v3](http://www.ncdc.noaa.gov/ghcnm/v3.php) format. SCAR
+READER is a collection of meteorological data from Antarctica
+(SCAR is the Scientific Committee on Antarctic Research).
+GHCN-M, Global Historical Climatology Network Monthly, is a
+collection of meteorological data covering the globe. It is well
+known and well used, there are likely to be many programs that
+understand the GHCN-M data format, hence there is some value in
+providing other datasets, SCAR READER, in this format.
 
 `inv.py` fetches the list of SCAR READER stations and generates
 a `scar.inv` file (and a `scar.url` file which is a list of
