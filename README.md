@@ -7,7 +7,7 @@ READER is a collection of meteorological data from Antarctica
 (SCAR is the Scientific Committee on Antarctic Research).
 GHCN-M, Global Historical Climatology Network Monthly, is a
 collection of meteorological data covering the globe. It is well
-known and well used, there are likely to be many programs that
+known and well used; there are likely to be many programs that
 understand the GHCN-M data format, hence there is some value in
 providing other datasets, SCAR READER, in this format.
 
