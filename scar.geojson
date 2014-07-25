@@ -1,1 +1,1385 @@
-{"features": [{"id": "79989058000", "geometry": {"coordinates": [-59.0, -62.2, 10.0], "type": "Point"}, "properties": {"latitude": -62.2, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Great_Wall                    ", "longitude": -59.0, "popsiz": null, "stelev": 10.0, "airstn": " ", "topo": "  ", "id": "79989058000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989034000", "geometry": {"coordinates": [-34.6, -77.9, 256.0], "type": "Point"}, "properties": {"latitude": -77.9, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Belgrano_II                   ", "longitude": -34.6, "popsiz": null, "stelev": 256.0, "airstn": " ", "topo": "  ", "id": "79989034000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989606000", "geometry": {"coordinates": [106.9, -78.5, 3490.0], "type": "Point"}, "properties": {"latitude": -78.5, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Vostok                        ", "longitude": 106.9, "popsiz": null, "stelev": 3490.0, "airstn": " ", "topo": "  ", "id": "79989606000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989252000", "geometry": {"coordinates": [-58.4, -62.1, 20.0], "type": "Point"}, "properties": {"latitude": -62.1, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Ferraz                        ", "longitude": -58.4, "popsiz": null, "stelev": 20.0, "airstn": " ", "topo": "  ", "id": "79989252000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989009000", "geometry": {"coordinates": [0.0, -90.0, 2835.0], "type": "Point"}, "properties": {"latitude": -90.0, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Amundsen_Scott                ", "longitude": 0.0, "popsiz": null, "stelev": 2835.0, "airstn": " ", "topo": "  ", "id": "79989009000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989611000", "geometry": {"coordinates": [110.5, -66.3, 42.0], "type": "Point"}, "properties": {"latitude": -66.3, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Casey                         ", "longitude": 110.5, "popsiz": null, "stelev": 42.0, "airstn": " ", "topo": "  ", "id": "79989611000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989642000", "geometry": {"coordinates": [140.0, -66.7, 43.0], "type": "Point"}, "properties": {"latitude": -66.7, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Dumont_Durville               ", "longitude": 140.0, "popsiz": null, "stelev": 43.0, "airstn": " ", "topo": "  ", "id": "79989642000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989055000", "geometry": {"coordinates": [-56.7, -64.2, 198.0], "type": "Point"}, "properties": {"latitude": -64.2, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Marambio                      ", "longitude": -56.7, "popsiz": null, "stelev": 198.0, "airstn": " ", "topo": "  ", "id": "79989055000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79994998000", "geometry": {"coordinates": [158.9, -54.5, 8.0], "type": "Point"}, "properties": {"latitude": -54.5, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Macquarie                     ", "longitude": 158.9, "popsiz": null, "stelev": 8.0, "airstn": " ", "topo": "  ", "id": "79994998000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989532000", "geometry": {"coordinates": [39.6, -69.0, 21.0], "type": "Point"}, "properties": {"latitude": -69.0, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Syowa                         ", "longitude": 39.6, "popsiz": null, "stelev": 21.0, "airstn": " ", "topo": "  ", "id": "79989532000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79988903000", "geometry": {"coordinates": [-36.5, -54.3, 3.0], "type": "Point"}, "properties": {"latitude": -54.3, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Grytviken                     ", "longitude": -36.5, "popsiz": null, "stelev": 3.0, "airstn": " ", "topo": "  ", "id": "79988903000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989066000", "geometry": {"coordinates": [-67.1, -68.1, 4.0], "type": "Point"}, "properties": {"latitude": -68.1, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "San_Martin                    ", "longitude": -67.1, "popsiz": null, "stelev": 4.0, "airstn": " ", "topo": "  ", "id": "79989066000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989592000", "geometry": {"coordinates": [93.0, -66.5, 30.0], "type": "Point"}, "properties": {"latitude": -66.5, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Mirny                         ", "longitude": 93.0, "popsiz": null, "stelev": 30.0, "airstn": " ", "topo": "  ", "id": "79989592000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989662000", "geometry": {"coordinates": [164.1, -74.7, 92.0], "type": "Point"}, "properties": {"latitude": -74.7, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Mario_Zucchelli               ", "longitude": 164.1, "popsiz": null, "stelev": 92.0, "airstn": " ", "topo": "  ", "id": "79989662000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989512000", "geometry": {"coordinates": [11.8, -70.8, 119.0], "type": "Point"}, "properties": {"latitude": -70.8, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Novolazarevskaya              ", "longitude": 11.8, "popsiz": null, "stelev": 119.0, "airstn": " ", "topo": "  ", "id": "79989512000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989050000", "geometry": {"coordinates": [-58.9, -62.2, 16.0], "type": "Point"}, "properties": {"latitude": -62.2, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Bellingshausen                ", "longitude": -58.9, "popsiz": null, "stelev": 16.0, "airstn": " ", "topo": "  ", "id": "79989050000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989571000", "geometry": {"coordinates": [78.0, -68.6, 13.0], "type": "Point"}, "properties": {"latitude": -68.6, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Davis                         ", "longitude": 78.0, "popsiz": null, "stelev": 13.0, "airstn": " ", "topo": "  ", "id": "79989571000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989967000", "geometry": {"coordinates": [-38.8, -78.0, 50.0], "type": "Point"}, "properties": {"latitude": -78.0, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Belgrano_I                    ", "longitude": -38.8, "popsiz": null, "stelev": 50.0, "airstn": " ", "topo": "  ", "id": "79989967000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989251000", "geometry": {"coordinates": [-58.7, -62.2, 11.0], "type": "Point"}, "properties": {"latitude": -62.2, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "King_Sejong                   ", "longitude": -58.7, "popsiz": null, "stelev": 11.0, "airstn": " ", "topo": "  ", "id": "79989251000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989053000", "geometry": {"coordinates": [-58.6, -62.2, 4.0], "type": "Point"}, "properties": {"latitude": -62.2, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Jubany                        ", "longitude": -58.6, "popsiz": null, "stelev": 4.0, "airstn": " ", "topo": "  ", "id": "79989053000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989002000", "geometry": {"coordinates": [-8.4, -70.7, 50.0], "type": "Point"}, "properties": {"latitude": -70.7, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Neumayer                      ", "longitude": -8.4, "popsiz": null, "stelev": 50.0, "airstn": " ", "topo": "  ", "id": "79989002000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989665000", "geometry": {"coordinates": [166.7, -77.9, 16.0], "type": "Point"}, "properties": {"latitude": -77.9, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Scott_Base                    ", "longitude": 166.7, "popsiz": null, "stelev": 16.0, "airstn": " ", "topo": "  ", "id": "79989665000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989059000", "geometry": {"coordinates": [-57.9, -63.3, 10.0], "type": "Point"}, "properties": {"latitude": -63.3, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "O_Higgins                     ", "longitude": -57.9, "popsiz": null, "stelev": 10.0, "airstn": " ", "topo": "  ", "id": "79989059000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79988938000", "geometry": {"coordinates": [-60.7, -63.0, 8.0], "type": "Point"}, "properties": {"latitude": -63.0, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Deception                     ", "longitude": -60.7, "popsiz": null, "stelev": 8.0, "airstn": " ", "topo": "  ", "id": "79988938000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79988968000", "geometry": {"coordinates": [-44.7, -60.7, 6.0], "type": "Point"}, "properties": {"latitude": -60.7, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Orcadas                       ", "longitude": -44.7, "popsiz": null, "stelev": 6.0, "airstn": " ", "topo": "  ", "id": "79988968000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989042000", "geometry": {"coordinates": [-45.6, -60.7, 6.0], "type": "Point"}, "properties": {"latitude": -60.7, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Signy                         ", "longitude": -45.6, "popsiz": null, "stelev": 6.0, "airstn": " ", "topo": "  ", "id": "79989042000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79968994000", "geometry": {"coordinates": [37.8, -46.8, 24.0], "type": "Point"}, "properties": {"latitude": -46.8, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Marion                        ", "longitude": 37.8, "popsiz": null, "stelev": 24.0, "airstn": " ", "topo": "  ", "id": "79968994000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989063000", "geometry": {"coordinates": [-64.4, -65.4, 11.0], "type": "Point"}, "properties": {"latitude": -65.4, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Faraday\\Vernadsky             ", "longitude": -64.4, "popsiz": null, "stelev": 11.0, "airstn": " ", "topo": "  ", "id": "79989063000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989664000", "geometry": {"coordinates": [166.7, -77.9, 24.0], "type": "Point"}, "properties": {"latitude": -77.9, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "McMurdo                       ", "longitude": 166.7, "popsiz": null, "stelev": 24.0, "airstn": " ", "topo": "  ", "id": "79989664000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79988963000", "geometry": {"coordinates": [-57.0, -63.4, 13.0], "type": "Point"}, "properties": {"latitude": -63.4, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Esperanza                     ", "longitude": -57.0, "popsiz": null, "stelev": 13.0, "airstn": " ", "topo": "  ", "id": "79988963000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79968906000", "geometry": {"coordinates": [-9.9, -40.4, 54.0], "type": "Point"}, "properties": {"latitude": -40.4, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Gough                         ", "longitude": -9.9, "popsiz": null, "stelev": 54.0, "airstn": " ", "topo": "  ", "id": "79968906000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79993947000", "geometry": {"coordinates": [169.0, -52.0, 19.0], "type": "Point"}, "properties": {"latitude": -52.0, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Campbell                      ", "longitude": 169.0, "popsiz": null, "stelev": 19.0, "airstn": " ", "topo": "  ", "id": "79993947000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989573000", "geometry": {"coordinates": [76.4, -69.4, 18.0], "type": "Point"}, "properties": {"latitude": -69.4, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Zhongshan                     ", "longitude": 76.4, "popsiz": null, "stelev": 18.0, "airstn": " ", "topo": "  ", "id": "79989573000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989125000", "geometry": {"coordinates": [-120.0, -80.0, 1515.0], "type": "Point"}, "properties": {"latitude": -80.0, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Byrd                          ", "longitude": -120.0, "popsiz": null, "stelev": 1515.0, "airstn": " ", "topo": "  ", "id": "79989125000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989542000", "geometry": {"coordinates": [45.9, -67.7, 40.0], "type": "Point"}, "properties": {"latitude": -67.7, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Molodeznaja                   ", "longitude": 45.9, "popsiz": null, "stelev": 40.0, "airstn": " ", "topo": "  ", "id": "79989542000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989062000", "geometry": {"coordinates": [-68.1, -67.5, 32.0], "type": "Point"}, "properties": {"latitude": -67.5, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Rothera                       ", "longitude": -68.1, "popsiz": null, "stelev": 32.0, "airstn": " ", "topo": "  ", "id": "79989062000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79988971000", "geometry": {"coordinates": [-62.9, -64.9, 7.0], "type": "Point"}, "properties": {"latitude": -64.9, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Almirante_Brown               ", "longitude": -62.9, "popsiz": null, "stelev": 7.0, "airstn": " ", "topo": "  ", "id": "79988971000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989056000", "geometry": {"coordinates": [-58.9, -62.2, 10.0], "type": "Point"}, "properties": {"latitude": -62.2, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Marsh                         ", "longitude": -58.9, "popsiz": null, "stelev": 10.0, "airstn": " ", "topo": "  ", "id": "79989056000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989524000", "geometry": {"coordinates": [24.1, -71.5, 931.0], "type": "Point"}, "properties": {"latitude": -71.5, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Asuka                         ", "longitude": 24.1, "popsiz": null, "stelev": 931.0, "airstn": " ", "topo": "  ", "id": "79989524000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79988958000", "geometry": {"coordinates": [-68.9, -67.8, 26.0], "type": "Point"}, "properties": {"latitude": -67.8, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Adelaide                      ", "longitude": -68.9, "popsiz": null, "stelev": 26.0, "airstn": " ", "topo": "  ", "id": "79988958000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989022000", "geometry": {"coordinates": [-26.4, -75.5, 30.0], "type": "Point"}, "properties": {"latitude": -75.5, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Halley                        ", "longitude": -26.4, "popsiz": null, "stelev": 30.0, "airstn": " ", "topo": "  ", "id": "79989022000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989132000", "geometry": {"coordinates": [-136.9, -74.8, 124.0], "type": "Point"}, "properties": {"latitude": -74.8, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Russkaya                      ", "longitude": -136.9, "popsiz": null, "stelev": 124.0, "airstn": " ", "topo": "  ", "id": "79989132000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989057000", "geometry": {"coordinates": [-59.7, -62.5, 5.0], "type": "Point"}, "properties": {"latitude": -62.5, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Arturo_Prat                   ", "longitude": -59.7, "popsiz": null, "stelev": 5.0, "airstn": " ", "topo": "  ", "id": "79989057000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989060000", "geometry": {"coordinates": [-61.0, -64.2, 50.0], "type": "Point"}, "properties": {"latitude": -64.2, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Primavera                     ", "longitude": -61.0, "popsiz": null, "stelev": 50.0, "airstn": " ", "topo": "  ", "id": "79989060000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989657000", "geometry": {"coordinates": [159.4, -69.5, 304.0], "type": "Point"}, "properties": {"latitude": -69.5, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Leningradskaja                ", "longitude": 159.4, "popsiz": null, "stelev": 304.0, "airstn": " ", "topo": "  ", "id": "79989657000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}, {"id": "79989564000", "geometry": {"coordinates": [62.9, -67.6, 16.0], "type": "Point"}, "properties": {"latitude": -67.6, "towndis": null, "ocndis": null, "grveg": "                ", "grelev": null, "stloc": "  ", "name": "Mawson                        ", "longitude": 62.9, "popsiz": null, "stelev": 16.0, "airstn": " ", "topo": "  ", "id": "79989564000", "popcls": " ", "stveg": "  ", "popcss": " "}, "type": "Feature"}], "type": "FeatureCollection"}
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          62.9, 
+          -67.6, 
+          16.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 62.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 16.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Mawson", 
+        "airstn": " ", 
+        "latitude": -67.6, 
+        "popsiz": null, 
+        "id": "79989564000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989564000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -58.6, 
+          -62.2, 
+          4.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -58.6, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 4.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Jubany", 
+        "airstn": " ", 
+        "latitude": -62.2, 
+        "popsiz": null, 
+        "id": "79989053000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989053000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -57.0, 
+          -63.4, 
+          13.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -57.0, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 13.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Esperanza", 
+        "airstn": " ", 
+        "latitude": -63.4, 
+        "popsiz": null, 
+        "id": "79988963000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79988963000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          11.8, 
+          -70.8, 
+          119.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 11.8, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 119.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Novolazarevskaya", 
+        "airstn": " ", 
+        "latitude": -70.8, 
+        "popsiz": null, 
+        "id": "79989512000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989512000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -58.9, 
+          -62.2, 
+          10.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -58.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 10.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Marsh", 
+        "airstn": " ", 
+        "latitude": -62.2, 
+        "popsiz": null, 
+        "id": "79989056000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989056000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -64.4, 
+          -65.4, 
+          11.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -64.4, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 11.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Faraday\\Vernadsky", 
+        "airstn": " ", 
+        "latitude": -65.4, 
+        "popsiz": null, 
+        "id": "79989063000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989063000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -120.0, 
+          -80.0, 
+          1515.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -120.0, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 1515.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Byrd", 
+        "airstn": " ", 
+        "latitude": -80.0, 
+        "popsiz": null, 
+        "id": "79989125000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989125000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -26.4, 
+          -75.5, 
+          30.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -26.4, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 30.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Halley", 
+        "airstn": " ", 
+        "latitude": -75.5, 
+        "popsiz": null, 
+        "id": "79989022000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989022000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          24.1, 
+          -71.5, 
+          931.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 24.1, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 931.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Asuka", 
+        "airstn": " ", 
+        "latitude": -71.5, 
+        "popsiz": null, 
+        "id": "79989524000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989524000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          106.9, 
+          -78.5, 
+          3490.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 106.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 3490.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Vostok", 
+        "airstn": " ", 
+        "latitude": -78.5, 
+        "popsiz": null, 
+        "id": "79989606000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989606000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          78.0, 
+          -68.6, 
+          13.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 78.0, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 13.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Davis", 
+        "airstn": " ", 
+        "latitude": -68.6, 
+        "popsiz": null, 
+        "id": "79989571000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989571000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -45.6, 
+          -60.7, 
+          6.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -45.6, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 6.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Signy", 
+        "airstn": " ", 
+        "latitude": -60.7, 
+        "popsiz": null, 
+        "id": "79989042000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989042000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -60.7, 
+          -63.0, 
+          8.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -60.7, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 8.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Deception", 
+        "airstn": " ", 
+        "latitude": -63.0, 
+        "popsiz": null, 
+        "id": "79988938000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79988938000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -136.9, 
+          -74.8, 
+          124.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -136.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 124.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Russkaya", 
+        "airstn": " ", 
+        "latitude": -74.8, 
+        "popsiz": null, 
+        "id": "79989132000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989132000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          93.0, 
+          -66.5, 
+          30.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 93.0, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 30.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Mirny", 
+        "airstn": " ", 
+        "latitude": -66.5, 
+        "popsiz": null, 
+        "id": "79989592000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989592000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          166.7, 
+          -77.9, 
+          24.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 166.7, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 24.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "McMurdo", 
+        "airstn": " ", 
+        "latitude": -77.9, 
+        "popsiz": null, 
+        "id": "79989664000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989664000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -8.4, 
+          -70.7, 
+          50.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -8.4, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 50.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Neumayer", 
+        "airstn": " ", 
+        "latitude": -70.7, 
+        "popsiz": null, 
+        "id": "79989002000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989002000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -61.0, 
+          -64.2, 
+          50.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -61.0, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 50.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Primavera", 
+        "airstn": " ", 
+        "latitude": -64.2, 
+        "popsiz": null, 
+        "id": "79989060000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989060000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          45.9, 
+          -67.7, 
+          40.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 45.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 40.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Molodeznaja", 
+        "airstn": " ", 
+        "latitude": -67.7, 
+        "popsiz": null, 
+        "id": "79989542000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989542000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -58.7, 
+          -62.2, 
+          11.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -58.7, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 11.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "King_Sejong", 
+        "airstn": " ", 
+        "latitude": -62.2, 
+        "popsiz": null, 
+        "id": "79989251000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989251000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -59.0, 
+          -62.2, 
+          10.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -59.0, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 10.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Great_Wall", 
+        "airstn": " ", 
+        "latitude": -62.2, 
+        "popsiz": null, 
+        "id": "79989058000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989058000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -68.1, 
+          -67.5, 
+          32.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -68.1, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 32.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Rothera", 
+        "airstn": " ", 
+        "latitude": -67.5, 
+        "popsiz": null, 
+        "id": "79989062000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989062000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -44.7, 
+          -60.7, 
+          6.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -44.7, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 6.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Orcadas", 
+        "airstn": " ", 
+        "latitude": -60.7, 
+        "popsiz": null, 
+        "id": "79988968000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79988968000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -36.5, 
+          -54.3, 
+          3.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -36.5, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 3.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Grytviken", 
+        "airstn": " ", 
+        "latitude": -54.3, 
+        "popsiz": null, 
+        "id": "79988903000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79988903000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -68.9, 
+          -67.8, 
+          26.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -68.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 26.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Adelaide", 
+        "airstn": " ", 
+        "latitude": -67.8, 
+        "popsiz": null, 
+        "id": "79988958000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79988958000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          39.6, 
+          -69.0, 
+          21.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 39.6, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 21.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Syowa", 
+        "airstn": " ", 
+        "latitude": -69.0, 
+        "popsiz": null, 
+        "id": "79989532000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989532000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -67.1, 
+          -68.1, 
+          4.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -67.1, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 4.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "San_Martin", 
+        "airstn": " ", 
+        "latitude": -68.1, 
+        "popsiz": null, 
+        "id": "79989066000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989066000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          140.0, 
+          -66.7, 
+          43.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 140.0, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 43.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Dumont_Durville", 
+        "airstn": " ", 
+        "latitude": -66.7, 
+        "popsiz": null, 
+        "id": "79989642000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989642000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          0.0, 
+          -90.0, 
+          2835.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 0.0, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 2835.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Amundsen_Scott", 
+        "airstn": " ", 
+        "latitude": -90.0, 
+        "popsiz": null, 
+        "id": "79989009000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989009000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          76.4, 
+          -69.4, 
+          18.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 76.4, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 18.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Zhongshan", 
+        "airstn": " ", 
+        "latitude": -69.4, 
+        "popsiz": null, 
+        "id": "79989573000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989573000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          169.0, 
+          -52.0, 
+          19.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 169.0, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 19.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Campbell", 
+        "airstn": " ", 
+        "latitude": -52.0, 
+        "popsiz": null, 
+        "id": "79993947000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79993947000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -62.9, 
+          -64.9, 
+          7.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -62.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 7.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Almirante_Brown", 
+        "airstn": " ", 
+        "latitude": -64.9, 
+        "popsiz": null, 
+        "id": "79988971000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79988971000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -57.9, 
+          -63.3, 
+          10.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -57.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 10.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "O_Higgins", 
+        "airstn": " ", 
+        "latitude": -63.3, 
+        "popsiz": null, 
+        "id": "79989059000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989059000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          110.5, 
+          -66.3, 
+          42.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 110.5, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 42.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Casey", 
+        "airstn": " ", 
+        "latitude": -66.3, 
+        "popsiz": null, 
+        "id": "79989611000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989611000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -9.9, 
+          -40.4, 
+          54.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -9.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 54.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Gough", 
+        "airstn": " ", 
+        "latitude": -40.4, 
+        "popsiz": null, 
+        "id": "79968906000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79968906000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -56.7, 
+          -64.2, 
+          198.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -56.7, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 198.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Marambio", 
+        "airstn": " ", 
+        "latitude": -64.2, 
+        "popsiz": null, 
+        "id": "79989055000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989055000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -34.6, 
+          -77.9, 
+          256.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -34.6, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 256.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Belgrano_II", 
+        "airstn": " ", 
+        "latitude": -77.9, 
+        "popsiz": null, 
+        "id": "79989034000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989034000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          37.8, 
+          -46.8, 
+          24.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 37.8, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 24.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Marion", 
+        "airstn": " ", 
+        "latitude": -46.8, 
+        "popsiz": null, 
+        "id": "79968994000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79968994000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -59.7, 
+          -62.5, 
+          5.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -59.7, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 5.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Arturo_Prat", 
+        "airstn": " ", 
+        "latitude": -62.5, 
+        "popsiz": null, 
+        "id": "79989057000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989057000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -58.9, 
+          -62.2, 
+          16.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -58.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 16.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Bellingshausen", 
+        "airstn": " ", 
+        "latitude": -62.2, 
+        "popsiz": null, 
+        "id": "79989050000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989050000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          164.1, 
+          -74.7, 
+          92.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 164.1, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 92.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Mario_Zucchelli", 
+        "airstn": " ", 
+        "latitude": -74.7, 
+        "popsiz": null, 
+        "id": "79989662000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989662000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          159.4, 
+          -69.5, 
+          304.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 159.4, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 304.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Leningradskaja", 
+        "airstn": " ", 
+        "latitude": -69.5, 
+        "popsiz": null, 
+        "id": "79989657000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989657000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -58.4, 
+          -62.1, 
+          20.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -58.4, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 20.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Ferraz", 
+        "airstn": " ", 
+        "latitude": -62.1, 
+        "popsiz": null, 
+        "id": "79989252000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989252000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          -38.8, 
+          -78.0, 
+          50.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": -38.8, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 50.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Belgrano_I", 
+        "airstn": " ", 
+        "latitude": -78.0, 
+        "popsiz": null, 
+        "id": "79989967000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989967000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          158.9, 
+          -54.5, 
+          8.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 158.9, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 8.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Macquarie", 
+        "airstn": " ", 
+        "latitude": -54.5, 
+        "popsiz": null, 
+        "id": "79994998000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79994998000"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          166.7, 
+          -77.9, 
+          16.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "popcss": " ", 
+        "longitude": 166.7, 
+        "stloc": "  ", 
+        "grelev": null, 
+        "stveg": "  ", 
+        "stelev": 16.0, 
+        "grveg": "", 
+        "towndis": null, 
+        "name": "Scott_Base", 
+        "airstn": " ", 
+        "latitude": -77.9, 
+        "popsiz": null, 
+        "id": "79989665000", 
+        "topo": "  ", 
+        "ocndis": null, 
+        "popcls": " "
+      }, 
+      "type": "Feature", 
+      "id": "79989665000"
+    }
+  ]
+}
